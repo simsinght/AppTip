@@ -82,7 +82,7 @@
                                         <rect key="frame" x="175" y="10" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                         <connections>
                                             <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="hUk-zn-VSn"/>
                                         </connections>
@@ -139,7 +139,7 @@
                                 <rect key="frame" x="193" y="134" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                 <connections>
                                     <action selector="editLeftField:" destination="G4S-C4-3Qh" eventType="editingDidEnd" id="o21-Sc-2YI"/>
                                 </connections>
@@ -148,7 +148,7 @@
                                 <rect key="frame" x="193" y="193" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                 <connections>
                                     <action selector="editCenterField:" destination="G4S-C4-3Qh" eventType="editingDidEnd" id="bEe-7s-TFS"/>
                                 </connections>
@@ -157,7 +157,7 @@
                                 <rect key="frame" x="193" y="249" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
                                 <connections>
                                     <action selector="editRightField:" destination="G4S-C4-3Qh" eventType="editingDidEnd" id="11d-iK-rAJ"/>
                                 </connections>

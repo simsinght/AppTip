@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
+        billTextField.becomeFirstResponder()
         // This is a good place to retrieve the default tip percentage from UserDefaults
         // and use it to update the tip amount
         
