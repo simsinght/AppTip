@@ -15,7 +15,7 @@ The following **required** functionality is complete:
 
 The following **optional** features are implemented:
 * [?] UI animations
-* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [?] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
@@ -30,6 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 UI animations as in Navigation animations? Because I have those.
+bill amount stays, but not for only under 10 minutes :(
 
 The settings page is described as optional in the writeup, but here it says it's required. Not sure if inconistency or I'm just reading it wrong.
 
