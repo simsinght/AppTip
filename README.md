@@ -29,8 +29,9 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+UI animations as in Navigation animations? Because I have those.
 
-? The settings page is described as optional in the writeup, but here it says it's required. Not sure if inconistency or I'm just reading it wrong.
+The settings page is described as optional in the writeup, but here it says it's required. Not sure if inconistency or I'm just reading it wrong.
 
 ## License
 
