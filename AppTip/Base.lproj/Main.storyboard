@@ -82,7 +82,7 @@
                                         <rect key="frame" x="175" y="10" width="97" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="done"/>
                                         <connections>
                                             <action selector="calcTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="hUk-zn-VSn"/>
                                         </connections>
