@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     // initial percentage options
     var percentages = [0.15, 0.18, 0.20]
-    
+    var defaults = NSUserDefaults.standardUserDefaults()
     var currency = "$"
     
     
@@ -40,7 +40,12 @@ class ViewController: UIViewController {
         // This is a good place to retrieve the default tip percentage from UserDefaults
         // and use it to update the tip amount
         
-        let defaults = NSUserDefaults.standardUserDefaults()
+        defaults = NSUserDefaults.standardUserDefaults()
+        let billVal = defaults.doubleForKey("billFieldVal")
+        
+        if( billVal != 0){
+            billTextField.text = String(billVal)
+        }
         
         let leftVal = defaults.integerForKey("leftFieldVal")
         let rightVal = defaults.integerForKey("rightFieldVal")
@@ -93,6 +98,9 @@ class ViewController: UIViewController {
         // set the values on screen
         tipLabel.text = String(format: "%@%.2f", currency, tip)
         totalLabel.text = String(format: "%@%.2f", currency, total )
+        
+        // save bill value so it doesn't hide if app closes or settings
+        defaults.setDouble(bill, forKey: "billFieldVal")
         
         // end function
         
